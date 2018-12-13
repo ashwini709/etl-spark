@@ -1,0 +1,10 @@
+version: "3"
+services:
+  minio:
+    image: minio/minio:latest
+    ports:
+    - "9000"
+    environment:
+      MINIO_ACCESS_KEY: 0LYDLQ3LM2M9SC62IU70
+      MINIO_SECRET_KEY: IfR/qA2lsrKFrcOh/eR2JUr2PuJnVC7EnbQpqiH7
+    command: server /data
