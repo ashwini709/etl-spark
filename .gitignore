@@ -1,0 +1,8 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Scala template
+*.class
+*.log
+target/
+create_f.txt
+update_f.txt
+destroy_f.txt
